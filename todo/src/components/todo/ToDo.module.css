@@ -1,0 +1,53 @@
+
+.itemTodo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    margin-top: 5px;
+    height: 35px;
+    max-height: 200px;
+    word-break: break-word;
+    margin-left: 12px;
+
+}
+
+.checkTodo {
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    margin-top: 5px;
+    text-decoration: line-through;
+    opacity: 0.5;
+    margin-left: 12px;
+}
+
+.check_wrapper {
+    margin-top: 5px;
+    padding: 5px;
+    position: relative;
+    border-radius: 50%;
+    border: solid 1px gray;
+    width: 8px;
+    height: 7px;
+}
+
+.check_inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.deleteBtn {
+    opacity: 0.5;
+
+    margin-top: 5px;
+}
+
+.deleteBtn:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+

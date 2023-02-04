@@ -1,0 +1,107 @@
+.App {
+    margin: 0 auto;
+    width: 450px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.container {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.containerForms {
+    overflow-y: auto;
+    max-height: 355px;
+}
+
+.containerForms::-webkit-scrollbar {
+    display: none;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 10px;
+    height: 50px;
+    gap: 20px;
+}
+
+.btnGroup {
+    align-items: center;
+    height: 50px;
+
+}
+
+.btn {
+    background-color: rgba(28, 28, 28, 0);
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+
+.counterTodo {
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.clearButton {
+    font-size: 13px;
+    opacity: 0.5;
+    cursor: pointer;
+    margin-right: 5px;
+    height: 50px;
+    padding-right: 10px;
+
+}
+
+.borderBtn {
+
+    background-color: rgba(28, 28, 28, 0);
+    cursor: pointer;
+    border: 2px solid #b8b5b5;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.loader {
+    position: absolute;
+    margin-left: -320px;
+    background-color: rgba(151, 137, 137, 0.34);
+}
+
+
+.logOut{
+    margin-left: 870px;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    margin-top: 4px;
+    width: 50%;
+    padding: 6px 0;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    background-color: #e3e2e2;
+    background-repeat: repeat-x;
+    background-position: left top;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+    height: 22px;
+    line-height: 1.5em;
+    margin-bottom: 6px;
+
+
+}

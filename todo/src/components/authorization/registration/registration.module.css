@@ -1,0 +1,54 @@
+.logPage{
+	display: flex;
+	flex-direction: column;
+	padding: 6px;
+	padding-top: 40px;
+	box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.5);
+	width: 500px;
+	border-radius: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items: center;
+	margin-top: 6px;
+
+
+}
+
+input {
+	width: 480px;
+	outline: none;
+	border: none;
+	border-bottom: lightgray 1px solid;
+	font: 18px "Tibetan Machine Uni";
+	margin-bottom: 15px;
+}
+
+.loginButton {
+	background: transparent;
+	color: lightgray;
+	transition: 0.2s;
+	margin: 7px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px 20px;
+	border: none;
+	box-shadow: 1px 1px 5px 2px #bbbbbb;
+	border-radius: 2px;
+}
+.loginButton:hover{
+
+	background: radial-gradient(circle, rgba(252,252,252,1) 1%, rgba(255, 154, 154, 0.44) 100%);
+	color: black;
+	box-shadow: 2px 2px 7px 4px #bbbbbb;
+}
+
+.link {
+	margin-left: 287px;
+}
+
+.aboutLink {
+	position: fixed;
+	margin-left: 15px;
+}
